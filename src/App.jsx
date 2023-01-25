@@ -37,7 +37,7 @@ function App() {
                         view all
                     </button>
                     <button
-                        className='capitalize  bg-gradient-to-r from-pink-500 to-rose-400 px-6 py-3 rounded-lg shadow-xl text-sm'
+                        className='capitalize  bg-gradient-to-r from-pink-400 to-rose-400 px-6 py-3 rounded-lg shadow-xl text-sm'
                         onClick={() => {
                             setCount([])
                         }}>
