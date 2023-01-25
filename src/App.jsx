@@ -7,7 +7,7 @@ function App() {
     const [count, setCount] = useState(data)
 
     return (
-        <main className='bg-rose-400 flex justify-center content-center w-screen h-screen '>
+        <main className='bg-pink-400 flex justify-center content-center w-screen h-screen '>
             <div className='App bg-white text-black w-[19rem] h-[30rem] p-8 flex m-auto flex-col shadow-2xl rounded-lg'>
                 <h3 className='pb-4'>{count.length} Birthdays Today</h3>
                 {count.map((person) => {
@@ -30,7 +30,7 @@ function App() {
                 })}
                 <div className='flex justify-around pt-5 text-white'>
                     <button
-                        className='capitalize px-6 py-3 rounded-lg mr-4 bg-gradient-to-r from-pink-500 to-rose-400 shadow-xl text-sm'
+                        className='capitalize px-6 py-3 rounded-lg mr-4 bg-gradient-to-r from-pink-400 to-rose-400 shadow-xl text-sm'
                         onClick={() => {
                             setCount(data)
                         }}>
